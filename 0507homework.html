@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .table{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .table>div{
+      width: 30vw;
+      height: 60vh;
+    }
+
+    .left{
+      border-radius: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 5px solid #ccc;
+      background-color: rgba(255, 255, 255, 0.6);
+      position:relative;
+      left: 570px;
+      bottom: 80px;
+      z-index: 3;
+    }
+
+    .left>div:nth-child(1){
+      width: 2vw;
+      height: 2vw;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 500px;
+      margin-top: 25px;
+      color: #ccc;
+    }
+
+    .left>div:nth-child(2){
+      width: 25vw;
+      height: 25vh;
+      font-size: 90px;
+      font-weight: bold;
+      margin-right: 15px;
+    }
+
+    .left>div:nth-child(3){
+      width: 25vw;
+      height: 20vh;
+    }
+
+    .left>div:nth-child(4){
+      width:8vw;
+      height: 3vh;
+      background-color: #c4c4c4;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 60px;
+      margin-left: 300px;
+    }
+
+    .mid{
+      background-color:rgba(100, 100, 100, 0.7);
+      border-radius: 40px;
+      filter: blur(20px);
+      z-index: 2;
+    }
+
+    .right{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right: 300px;
+    }
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="table">
+    <div class="left">
+      <div>x</div>
+      <div>LOREM<br>IPSUM</div>
+      <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis consequuntur minima culpa quam! Blanditiis laboriosam quisquam cupiditate quae voluptas! Itaque soluta repudiandae adipisci laudantium, quisquam aut repellendus quaerat omnis! Quod!</div>
+      <div>close</div>
+    </div>
+    <div class="mid"></div>
+    <div class="right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consequatur ipsa labore odit vel. Debitis deleniti excepturi optio asperiores exercitationem! Molestias nostrum tempora dolore hic non qui quis, dolor eligendi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum odit nobis beatae eaque deleniti ea accusantium, velit consequatur itaque iste rerum sunt minima eos repellendus laudantium enim. Est, enim quas?ti excepturi optio asperiores exercitationem! Molestias nostrum tempora dolore hic non qui quis, dolor eligendi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum odit nobis beatae eaque deleniti ea accusantium, velit consequatur itaque iste rerum sunt minima eos repellendus laudantium enim. Est, enim quas?ti excepturi optio asperiores exercitationem! Molestias nostrum tempora dolore hic non qui quis, dolor eligendi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum odit nobis beatae eaque deleniti ea accusantium, velit consequatur itaque iste rerum sunt minima eos repellendus laudantium enim. Est, enim quas?
+    </div>
+  </div>
+</body>
+</html>
